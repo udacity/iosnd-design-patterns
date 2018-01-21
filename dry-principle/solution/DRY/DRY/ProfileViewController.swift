@@ -16,7 +16,7 @@ class ProfileViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        label.text = "\(user.firstName) \(Array(user.lastName)[0])"
+        label.text = user.displayName
     }
     
     @IBAction func onBackPressed(_ sender: Any) {

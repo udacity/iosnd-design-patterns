@@ -12,18 +12,11 @@ class UsernameViewController: UIViewController {
 
     @IBOutlet weak var textFieldUsername: UITextField!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToPasswordViewSegue" {
+            let passwordViewController = segue.destination as! PasswordViewController
+            // TODO Create builder object and pass it to passwordViewController
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    @IBAction func onNextTapped(_ sender: Any) {
-    }
-    
 }
 

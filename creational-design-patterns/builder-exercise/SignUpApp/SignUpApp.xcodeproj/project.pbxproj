@@ -12,6 +12,7 @@
 		839D1833202E19380016DE45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839D1831202E19380016DE45 /* Main.storyboard */; };
 		839D1835202E19380016DE45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839D1834202E19380016DE45 /* Assets.xcassets */; };
 		839D1838202E19380016DE45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839D1836202E19380016DE45 /* LaunchScreen.storyboard */; };
+		839E6E512040905E0029E497 /* SignUpForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839E6E502040905E0029E497 /* SignUpForm.swift */; };
 		83D5360A203F969400DE3758 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D53609203F969400DE3758 /* PasswordViewController.swift */; };
 		83D5360C203F96BD00DE3758 /* EmailVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D5360B203F96BD00DE3758 /* EmailVIewController.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 		839D1834202E19380016DE45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		839D1837202E19380016DE45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		839D1839202E19380016DE45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839E6E502040905E0029E497 /* SignUpForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpForm.swift; sourceTree = "<group>"; };
 		83D53609203F969400DE3758 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
 		83D5360B203F96BD00DE3758 /* EmailVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailVIewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +68,7 @@
 				839D1831202E19380016DE45 /* Main.storyboard */,
 				83D53609203F969400DE3758 /* PasswordViewController.swift */,
 				839D182F202E19380016DE45 /* UsernameViewController.swift */,
+				839E6E502040905E0029E497 /* SignUpForm.swift */,
 			);
 			path = SignUpApp;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839E6E512040905E0029E497 /* SignUpForm.swift in Sources */,
 				839D1830202E19380016DE45 /* UsernameViewController.swift in Sources */,
 				839D182E202E19380016DE45 /* AppDelegate.swift in Sources */,
 				83D5360A203F969400DE3758 /* PasswordViewController.swift in Sources */,

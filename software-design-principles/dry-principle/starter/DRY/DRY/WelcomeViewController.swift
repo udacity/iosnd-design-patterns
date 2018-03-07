@@ -15,6 +15,7 @@ class WelcomeViewController: UIViewController {
     private var user: User!
     
     override func viewDidLoad() {
+        super.viewDidLoad()
         user = User(id: 1, firstName: "Steve", lastName: "Jobs")
         label.text = "\(user.firstName) \(Array(user.lastName)[0])"
     }

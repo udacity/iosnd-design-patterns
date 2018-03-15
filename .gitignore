@@ -1,2 +1,42 @@
+# OS X
 .DS_Store
-*xcuserdata
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xcuserdatad
+*.xccheckout
+*.moved-aside
+DerivedData
+*.xcuserstate
+*.DS_Store
+xcshareddata
+
+# Project
+*.xcworkspace
+!default.xcworkspace
+xcuserdatad/
+
+# Carthage
+Carthage/Build
+Carthage/Checkouts
+
+# Cocoapods
+Pods/
+
+# secret
+pancit-firebase-key.json

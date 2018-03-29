@@ -27,5 +27,5 @@ The concepts with projects/playground files are:
 ### Behavioral Design Patterns
 * [Observer](https://github.com/udacity/iosnd-design-patterns/tree/master/behavioral-design-patterns/observer)
 * [Command](https://github.com/udacity/iosnd-design-patterns/tree/master/behavioral-design-patterns/command)
-* [Chain of Responsibility]()
+* [Chain of Responsibility](https://github.com/udacity/iosnd-design-patterns/tree/master/behavioral-design-patterns/chain-of-responsibility)
 * [Mediator](https://github.com/udacity/iosnd-design-patterns/tree/master/behavioral-design-patterns/mediator)
